@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UI to control video playback.-->
+<com.velosmobile.vr360kotlinapp.video360.VideoUiView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videoUiView"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#000"
+    android:orientation="horizontal">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:gravity="center|end"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="…"
+        android:textAlignment="textEnd"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+</com.velosmobile.vr360kotlinapp.video360.VideoUiView>
