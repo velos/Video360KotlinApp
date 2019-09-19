@@ -1,6 +1,7 @@
 # Video360KotlinApp
-This repo is a sample app for showing 360 videos using an adaptation of https://github.com/googlevr/gvr-android-sdk
+This repo is a sample app for showing 360 videos in 2D using an adaptation of https://github.com/googlevr/gvr-android-sdk
 
+[![360 Video Integration in 2D for Android](https://imgur.com/NWCqAdb.png)](https://youtu.be/rH39g-WRICc "360 Video Integration in 2D for Android")
 
 ## Software and Hardware Requirements
 The minSDK is set to 24. The 2D version of the 360 experiences work on devices that meet this minimum. 
